@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-Roboto relative">
+    <header class="bg-white h-fit z-10 p-1 fixed top-0 left-0 right-0  ">
+        <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mx-4">
+                <span class="material-symbols-outlined hover:cursor-pointer">
+                    menu
+                </span>            
+            </div>
+            <div class="flex justify-between items-center">
+                <a href=""><img class="w-24" src="https://t3.ftcdn.net/jpg/03/00/38/90/360_F_300389025_b5hgHpjDprTySl8loTqJRMipySb1rO0I.jpg" alt=""></a>
+            </div>
+            <div class="flex justify-center items-center flex-grow">
+                <div class="flex justify-center items-center flex-grow">
+                    <input type="text" placeholder="Search" class="focus:shadow-inner border b-gray-400 h-10  px-2 py-4 focus:outline-none focus:border-blue-800 w-2/5  rounded-l-full">
+                <button class="bg-gray-200 flex justify-center items-center h-10 w-16 border-l-0 hover:bg-gray-300 rounded-r-full">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                </button>
+                <button>
+                    <div class="flex justify-center items-center mx-5 h-10 w-10 bg-gray-200 rounded-full hover:bg-gray-400" >
+                        <span class="material-symbols-outlined">
+                            mic
+                            </span>
+                    </div>
+                </button>
+                </div>
+                
+            </div>
+            <div class="flex items-center justify-center space-x-4 gap-4 mx-4 ">
+                <button class="flex items-center justify-center">
+                    <span class="material-symbols-outlined">
+                        upload
+                        </span>
+                </button>
+                <button class="flex items-center justify-center">
+                    <span class="material-symbols-outlined ">
+                        notifications
+                        </span>
+                </button>
+                <button class="flex items-center justify-center">
+                    <div class="h-8 w-8 rounded-full  bg-blue-300"></div>
+                </button>
+            </div>
+        </div>
+        
+    </header>
+    <div class="py-2 flex top-12 relative">
+        <nav class="w-60 px-4 mt-3 ">
+            <ul class="space-y-3 mb-3 px-3">
+                <li class="font hover:cursor-pointer-semibold flex justify-start items-center space-x-8 bg-gray-100 p-2 rounded-lg">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    <span class="font-semibold">Home</span>
+                    </li>
+                <li class="flex hover:cursor-pointer justify-start items-center space-x-8 p-1">
+                    <span><a href=""><img class="h-6 w-6" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-shorts-icon.svg" alt=""></a></span>
+                    <span>Shorts</span>                    
+                </li>
+                <li class="flex hover:cursor-pointer justify-start items-center space-x-8 p-1">
+                    <span><span class="material-symbols-outlined">
+                        subscriptions
+                        </span></span>
+                    <span>Subscription</span></li>
+            </ul>
+            <div class="bg-gray-200 h-px"></div>
+            <ul class="space-y-4 my-3">
+                <li class="flex hover:cursor-pointer justify-start space-x-2 px-4 items-center">
+                    <span class="font-semibold">You</span>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        account_box
+                    </span>
+                    <span>Your Channel</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        history
+                    </span>
+                    <span>History</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        smart_display
+                    </span>
+                    <span>Your Videos</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        pace
+                    </span>
+                    <span>Watch Later</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                    <span>Show More</span>
+                </li>
+            </ul>
+            <div class="bg-gray-200 h-px"></div>
+            <ul class="space-y-4 my-3">
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="font-bold">Subscriptions</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center"><img class="h-6 rounded-full w-6" src="https://yt3.googleusercontent.com/XDA6ig1JeTk6W84g4ipe4LhkWsghnDjq1Zuod27XxRrLkthoLBC3gj_zxQcop1kSBzw3BKIj=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                    <span class="font-medium">Iman Gadzhi</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center"><img class="h-6 rounded-full w-6" src="https://yt3.googleusercontent.com/RyeP9L6S_rfuxMCcs9OnWaODqDpgSi9NyzQTtT_aSXIvdoe1jBuVr7kPBvsZJB6T3EEKQWlTnw=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                    <span>College Wallah</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center"><img class="h-6 rounded-full w-6" src="https://yt3.googleusercontent.com/ytc/AIf8zZTNiWLD2-Qw1eWFmRJkGBzfI-8oFNmYk5tBnpNurQ=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                    <span>CodeWithHarry</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center"><img class="h-6 rounded-full w-6" src="https://yt3.googleusercontent.com/0op3NrEEmhcR4jwkCnSNv4PWvHE6kj7He8C2aocxyLfx1Tx-hN1JwmxaUj5O626ooqnWSrCJ=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                    <span>Tech Burner</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center "><img class="h-6 rounded-full w-6" src="https://yt3.googleusercontent.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                    <span>Tailwind Labs</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center"><img class="h-6 rounded-full w-6" src="https://yt3.ggpht.com/fxGKYucJAVme-Yz4fsdCroCFCrANWqw0ql4GYuvx8Uq4l_euNJHgE-w9MTkLQA805vWCi-kE0g=s176-c-k-c0x00ffffff-no-rj-mo" alt=""></span>
+                    <span>MrBeast</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="h-8 w-8 flex justify-center items-center"><img class="h-6 rounded-full w-6" src="https://yt3.googleusercontent.com/O4rT81mQshFyOIETtPVj3gmz5HtJPHr-ygcv3eI7HC-jSLnyHq93YDevtWRi0ilt-ccCUgoN=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                    <span>techmath</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                        </span>
+                    <span>Show More</span>
+                </li>
+            </ul>
+            <div class="bg-gray-200 h-px"></div>
+            <ul class="space-y-4 my-3">
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="font-semibold">Explore</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span><img class="h-6 w-6" src="https://icon-library.com/images/trending-icon/trending-icon-16.jpg" alt=""></span>
+                    <span>Trending</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        local_mall
+                    </span>
+                    <span>Shopping</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        music_note
+                    </span>
+                    <span>Music</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        movie
+                    </span>
+                    <span>Movies</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span><img class="h-6 w-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQBeq5EtIXGikQfQNGRQ5ITamSpWhUCJqm1Q&usqp=CAU" alt=""></span>
+                    <span>Live</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        stadia_controller
+                    </span>
+                    <span>Gaming</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        news
+                    </span>
+                    <span>News</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        trophy
+                    </span>
+                    <span>Sports</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        lightbulb
+                    </span>
+                    <span>Learning</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        styler
+                    </span>
+                    <span>Fashion & Beauty</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        podcasts
+                    </span>
+                    <span>Podcasts</span>
+                </li>
+            </ul>
+            <div class="bg-gray-200 h-px"></div>
+            <ul class="space-y-4 my-3">
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                    <span>settings</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        flag
+                    </span>
+                    <span>Report History</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        help
+                    </span>
+                    <span>Help</span>
+                </li>
+                <li class="flex hover:cursor-pointer justify-start space-x-8 px-4 items-center">
+                    <span class="material-symbols-outlined">
+                        feedback
+                    </span>
+                    <span>Send Feedback</span>
+                </li>
+            </ul>
+            <div class="bg-gray-200 h-px"></div>
+            <ul class="space-y-1 my-3 mx-3">
+                <li class="text-gray-500 font-semibold leading-5">About&nbsp;&nbsp;&nbsp;Press&nbsp;&nbsp;&nbsp;Copyright</li>
+                <li class="text-gray-500 font-semibold leading-5"><span>Contact us</span>&nbsp;&nbsp;Creators&nbsp;Advertise</li>
+                <li class="text-gray-500 font-semibold leading-5">Developers</li>
+            </ul>
+            <ul class="space-y-1 my-3 mx-3">
+                <li class="text-gray-500 font-semibold leading-5">terms&nbsp;&nbsp; Privacy Policy & Safety</li>
+                <li class="text-gray-500 font-semibold leading-5">How Youtube Works</li>
+                <li class="text-gray-500 font-semibold leading-5">Test New Features</li>
+            </ul>
+            <div class="bg-gray-200 h-px"></div>
+            <div class="mx-3 my-3 flex justify-start gap-4 items-center">
+                <span class="material-symbols-outlined text-gray-300">
+                    copyright
+                    </span>
+                <span class="text-gray-300">2024 Google LLC</span>
+            </div>
+        </nav>
+        <main class=" ">
+            <div class="flex justify-center px-2 py-2 space-x-4" >
+                <span class="hover:shadow-inner hover:cursor-pointer text-white bg-black border border-gray-200 rounded-xl px-4 py-1 font-medium ">All</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Javascript</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Music</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Mixes</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Computer Science</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Live</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Thoughts</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Romantic Series</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Stocks</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Soul Music</span>
+                <span class="hover:shadow-inner hover:cursor-pointer flex justify-center items-center font-semibold text-sm bg-gray-200 border border-gray-200 rounded-xl px-4 py-1">Playlists</span>
+            </div>
+            <div class="grid grid-cols-4 gap-4 p-2">
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/wcSv1fURwTc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAVMG3JWGWim6AilpXi_9kV6LI3bA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/9qxpGSaFihybrBXsLbnYPYF9zN1B5T5tOBP8sH9wbWZFqX_Z7MBKVQSrSdYyRO6NRhi3XlOCL7o=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">10 pull-ups everyday | day 136</span>
+                            <span class="text-gray-500">calisthenicshow</span>
+                            <span class="text-gray-500">813 views • 2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/0MKj01Et9t8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCtBaiIEa0Obr05f8OpJZL7OTqU7w" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="" class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/y9gQcpYuhtbrZLWElp6x_lxhWK1xlE_OrttzOHAk07hugbQRNFOjULAwe9zkmoSsQzZQca77yg=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5 ">
+                            <span class="font-semibold mb-2">Night Drive with Ryan Gosling | Ch..</span>
+                            <span class="text-gray-500">DeathMatcherTV</span>
+                            <span class="text-gray-500">1.7M views • 9 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/Ap8Mik0VDi0/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDADOyzSR64lOifa22gqK4BolE2Hw" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/MJag1cOSqsgRMAX24swhlY-RaRK2RezOXx7-Gz5FIHtwjRWAkbSrbeN-u8BbiPcqN2vYxMJjSvA=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Catch me If you can Edit - let it happen (Slowed)</span>
+                            <span class="text-gray-500">Waldy</span>
+                            <span class="text-gray-500">85k views • 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/8gLHEOIlvfQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBFYN9Kq8t7-Nc2HEjKL-Ns8NCuew" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/1OR-DYlgH-33IAqh4PdWSJl7SjD7DI3FcsEit3H8ZkQw_bM3BzB0AzgUkq0JqJ0Cu-_vZdcpOw=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Thomas Shelby || Time</span>
+                            <span class="text-gray-500">King Jon</span>
+                            <span class="text-gray-500">2.9M • 1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/8oXW11PuB0c/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAm5xyyiVt_BVHMObfNfdAwPYWI0A" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/vdNRoNCTVnW7eFK-P0vlcmK_rZWNAEJLQ3qWcO5oFnK91xTGlXmJEXS2TKPBm1p0qBO0C6JT=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Music when you need a break From the World #2</span>
+                            <span class="text-gray-500">Ambient Cinematics</span>
+                            <span class="text-gray-500">703k views • 5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/idnEri1hMuQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBnEjvJq87SWf8pUx_P0_pdUuh_pw" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/jsYsauKt78_CuoFerULNnKRdlx-XFn1oa6cYNTfmQjZZNtePFMfdDtf6qE3KpjdaXpu0nosGOw=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Fight Club | Let it Happen</span>
+                            <span class="text-gray-500">Slippery</span>
+                            <span class="text-gray-500">371k views • 1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/ny-OQhdWvb8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBcJLbxFioPySrji0Ici26NaERBrA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/4ODYo7J4KeQvdxbMMtB2NpJpYfokYRjksIQ24megSTBK9XE7_AuDNq7tWfdHD9HlgByb2A7axE4=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Imagine Dragons - Radioactive | Creed II</span>
+                            <span class="text-gray-500">HIGHER PULSE</span>
+                            <span class="text-gray-500">269k views • 1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/ZYdDURbjhk4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCyOJgjAs6tOYVB5kgo6ZJC9TlwIg" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/ytQ8O6L0mhaUkG0LNa00SlcYs8ESsimLS-xmQjpAGD9o-yIpYU-Qy38gaCfgIi0UAgG14w6hgKE=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">I Watched All 26 Ryan Gosling Movies</span>
+                            <span class="text-gray-500">Soder</span>
+                            <span class="text-gray-500">924k Views • 5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/N--hz7XiZG8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD5Anq2LS6hU2FQAgeXAxklBI_SBQ" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/m_qKxGQ37UEYiwM9bnS7DtV7utdb2ahE55uzu2YK54aws-Tsi9bsBRtKby3eu5nKvwnXSs_6-g=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">"Is Reading Important?" - Elon Musk</span>
+                            <span class="text-gray-500">DB Business</span>
+                            <span class="text-gray-500">962k views • 2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/NdvpzFWrjw0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBOQYH3hXv744qeyzPpgvs_OZEEuQ" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/ANS0Tht_YmKYDBP5v2lt2SLtlObNWbe2vmWllmt9jZRbuF0i4WUZzEMdxzIgnpA6GcsDrtQX=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">lucifer is a monster | a playlist</span>
+                            <span class="text-gray-500">darlynn</span>
+                            <span class="text-gray-500">3M • 2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/7vBb4-E-4Qc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB2e-n3BwyiNxAyrWKY2Ucrc2pnWA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://i.ytimg.com/vi/7vBb4-E-4Qc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB2e-n3BwyiNxAyrWKY2Ucrc2pnWA" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Robert Downey Jr's Speech Will Leave You SPEECHLESS..</span>
+                            <span class="text-gray-500">Motivation Mentors</span>
+                            <span class="text-gray-500">3.6M views • 2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/7z1YC8_73cg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCsbR9tuZYigwzBQU03JNDT5a3PDA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/JCxw636VkW0aNDYa3CkTblvvmhEi1VTYdpMagq7Zj8trOizp2kINd74JpHR4FHckBU_vCIR7hQ=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Fastest Way to $10,000 a Month with Coding in 2024</span>
+                            <span class="text-gray-500">Internet Mada Coder</span>
+                            <span class="text-gray-500">72k views • 4 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/bgiAEfAxoms/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYXiBeKF4wDw==&rs=AOn4CLBco_IcpdafAaDQ5PN4hovohAKWtQ" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/xf3ukHqQzq9RBs52vVdUUOG8fZAnogCpBKSTyGcs6V-nPE2C9FAr0QOnBCp3TaJZlSQCW4gJZQ=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">it's going to be alright</span>
+                            <span class="text-gray-500">aroon</span>
+                            <span class="text-gray-500">232k views • 2 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/ORCuz7s5cCY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAQOdu2rdjyVsLDyDmbUHKujz1vlQ" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/ytc/AIf8zZTNiWLD2-Qw1eWFmRJkGBzfI-8oFNmYk5tBnpNurQ=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Variables and Data Types | Python Tutorial - Day #6</span>
+                            <span class="text-gray-500">CodeWithHarry</span>
+                            <span class="text-gray-500">886k views • 1 year ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/7m4zQpf3Ouo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBW4BqkIaFzNyily83iYL6otXaWVg" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/WcvwVz9rSIwPd3hB_yE2sw8PGndX1IjD1cZKxwc-k_QYK_ntSqZRpJhJcEJHAG7o6w597-etPA=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Ratan tata Leaves The Audience SPEECHLESS | One of the best..</span>
+                            <span class="text-gray-500">STILL I RISE Motivation</span>
+                            <span class="text-gray-500">2.6M views • 2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/LuzOKmcW7BQ/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBskO1JgiBOioDDLu9Q8hI8fT5zfw" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/7cs36hsbqlJsaiW57vx7D439d_2FhmWTIyNi_J2tp7z6ehy2aKKb7z0vOnYU8UxpmqU5POw_=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Discipline</span>
+                            <span class="text-gray-500">Rezikan</span>
+                            <span class="text-gray-500">2.8M views • 5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/g-mmdrXcApo/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjuwUCnH-vxDBit_zGSThntgRiAA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/p-G9HzfldJWYY2ZsyYsFG7tI8HIPWTWXQgRqR6np-9B3XN4Xmq0Qe4KltN67SzhqakNICFmiMQ=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">How to outwork EVERYONE around you (listen to this)</span>
+                            <span class="text-gray-500">HungGoesCrazy</span>
+                            <span class="text-gray-500">1K views • 2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/a5Z7pZgVfcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnnE8r-5P0vR601NM03DmcdWULIA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/h_5EX_GD2dB4Ti3cQbQ1BjGkm_M-EN_z_mWSw7KG-kYzswbULF5bTogzGRm-KcawIqiXgcnJiOM=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">How I cracked Google interview after 500+ rejections</span>
+                            <span class="text-gray-500">Sahil & Sarra</span>
+                            <span class="text-gray-500">61K views • 8 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/cqetR-ySj6g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBs0ZyAy3PmgllE-hhuz41MH_rQpA" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/ytc/AIf8zZRBvrAT0el6w25X8tNQ1ZVho1W3odWTgwcb-0Be=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">HM Contessa review - India's Muscle Car - METAL BEINGS</span>
+                            <span class="text-gray-500">Metal Beings</span>
+                            <span class="text-gray-500">358K views • 6 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/XfRrCaWBMCg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPBTYZvQmt2wCEdJz0QakzafYUmw" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.googleusercontent.com/UZ0fAl93wBMHGjKCUu2WIv4USmRGhRPSSxkLvIVWyrrnd92FzCUBy5N9Jh1cf55OdnsRIKTa=s176-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">iShowSpeed's NEW $10,000,000 House Tour!</span>
+                            <span class="text-gray-500">Live Speedy</span>
+                            <span class="text-gray-500">5M views • 2 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/3uXBfajJJI8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBO3Bgp36EdSzWLF6MZ2762vqyGQw" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/1FEdfq3XpKE9UrkT4eOc5wLF2Bz-42sskTi0RkK4nPh4WqCbVmmrDZ5SVEV3WyvPdkfR8sw2=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Earn Crores with programming</span>
+                            <span class="text-gray-500">Chai aur Code</span>
+                            <span class="text-gray-500">27K views • 1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/pt50QF6al8g/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCEXm0aj9NWZa6eAfde9yY7mKAF4Q" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/p0015Y5AbiwROJtOZPeXkhadnjOXOlygUzlyiv0zsAPJkh6Ur1Vr01qWJ8bvo5QdDLw_4Z724oY=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Brutally Honest Advice to Build Confidence</span>
+                            <span class="text-gray-500">Alex Hormozi</span>
+                            <span class="text-gray-500">276K views • 9 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/yd5ZwGVmluM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAthTr3qa7UAbiGpiG2z3HCpYl6dQ" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://i.ytimg.com/vi/yd5ZwGVmluM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAthTr3qa7UAbiGpiG2z3HCpYl6dQ" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">Podcast With MS Dhoni</span>
+                            <span class="text-gray-500">Finance With Sharan</span>
+                            <span class="text-gray-500">534K views • 3 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span><img class="rounded-2xl" src="https://i.ytimg.com/vi/1fPWr0d5zBE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC0CDB-1HjcZ4BaJ7MXHXcnML-Wyw" alt=""></span>
+                    <div class="flex my-4 gap-4">
+                        <span class="h-14 w-14"><img class="h-10 w-10 rounded-full" src="https://yt3.ggpht.com/ytc/AIf8zZSADErBUT82bmPAEOgjS_tufBR31VQPVN3vy1y_=s68-c-k-c0x00ffffff-no-rj" alt=""></span>
+                        <div class="flex flex-col leading-5">
+                            <span class="font-semibold mb-2">10 years of coding in 13 minutes</span>
+                            <span class="text-gray-500">Joma Tech</span>
+                            <span class="text-gray-500">4.7M views • 2 years ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
