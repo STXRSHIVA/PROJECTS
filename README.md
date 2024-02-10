@@ -10,7 +10,7 @@ This project is a simple YouTube clone created using HTML, CSS, and Tailwind CSS
 
 ## Preview
 
-![YouTube Clone](Screenshot%202024-02-10%20202929.png)
+![YouTube Clone](preview.png)
 
 ## Features
 
